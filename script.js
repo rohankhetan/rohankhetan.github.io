@@ -20,6 +20,10 @@ const observer = new IntersectionObserver(
 
 sections.forEach((s) => observer.observe(s));
 
+function toggleProject(card) {
+  card.classList.toggle('open');
+}
+
 // Graceful fallback if profile photo is missing
 const img = document.getElementById('profile-img');
 if (img) {
