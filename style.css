@@ -326,6 +326,11 @@ a:hover {
   display: block;
 }
 
+.project-img--contain {
+  object-fit: contain;
+  background: #f5f5f5;
+}
+
 .project-link {
   color: #1a6faf;
   text-decoration: underline;
